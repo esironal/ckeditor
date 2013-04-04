@@ -1,4 +1,4 @@
 ckeditor
 ========
 
-stealable ckeditor with some custom things added
+stealable ckeditor with ontraports ckeditor theme
