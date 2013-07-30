@@ -4,7 +4,6 @@
  */
 steal({
 		src: './lib/ckeditor.js',
-		//ie doesnt like this in prodction.js
-		packaged: true
+		packaged: false
 	})
 
