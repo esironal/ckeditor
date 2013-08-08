@@ -93,6 +93,20 @@ For licensing, see LICENSE.md or http://ckeditor.com/license
 		);
 
 		CKEDITOR.appendTo( 'framed2', {
+
+				toolbar: [
+								{ name: 'Font Family',   items : [ 'Font'] }, '/',
+                                { name: 'Font Size',    items : [ 'FontSize'] }, '/',
+                                { name: 'Font Color',    items : [ 'TextColor'] }, '/',
+                                { name: 'Text Style',    items : [ 'Bold','Italic','Underline','Strike'] }, '/',
+                                { name: 'Text Align',    items : ['JustifyLeft','JustifyCenter','JustifyRight','JustifyBlock'] }, '/',
+                                { name: 'Indenting & Lists',    items : [ 'Outdent','Indent','NumberedList','BulletedList'] }, '/',
+                                { name: 'Insert Image',    items : [ 'Image'] }, '/',
+                                { name: 'Table',    items : [ 'Table'] }, '/',
+                                { name: 'Link',    items : [ 'Link','Unlink'] }, '/',
+                                { name: 'Source Code', items:['Source'] }
+                        ],
+
 				extraPlugins: 'sharedspace',
 				removePlugins: 'maximize,resize',
 				sharedSpaces: {
