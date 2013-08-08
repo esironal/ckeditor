@@ -2,6 +2,7 @@
  * var CKEDITOR_BASEPATH = '/js/ckeditor/lib/';
  * should work but steal removeds it when it builds it sooooo put it the ckeditor.js lib
  */
+var CKEDITOR_BASEPATH = '/formeditor/ckeditor/lib/';
 steal(
 	/*
      * 	try to set the basepath based on the steal root
@@ -19,6 +20,6 @@ steal(
 	{
 		src: './lib/ckeditor.js',
 		//ie doesnt like this in prodction.js
-		packaged: true
+		packaged: false
 	}
 );
